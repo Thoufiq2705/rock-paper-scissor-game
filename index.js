@@ -9,7 +9,7 @@ buttons.forEach((button) => {
        resultFinal.textContent = finalResult;
     });    
 });
-
+//this is comment
 let playerS = 0;
 let computerS = 0;
 
