@@ -12,7 +12,8 @@ buttons.forEach((button) => {
 //this is comment
 let playerS = 0;
 let computerS = 0;
-
+let name = "Thoufiq";
+let lastName = "Thajuden";
 function computerPlay() {
     const options = ["rock", "paper", "scissor"];
     const optionsChoice = Math.floor(Math.random() * options.length);
