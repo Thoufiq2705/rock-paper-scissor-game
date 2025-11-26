@@ -16,6 +16,17 @@
     position: absolute;
     bottom: 250px;
 }
+.service .container{
+    background: #ffffff ;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 250px;
+}
 p{
     margin: 0 0 15px 0;
 }
