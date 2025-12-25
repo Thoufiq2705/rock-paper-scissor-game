@@ -8,7 +8,7 @@ buttons.forEach((button) => {
        const finalResult = playRound(button.id , computerPlay());
        resultFinal.textContent = finalResult;
     });    
-});
+}); 
 //this is comment
 let playerS = 0;
 let computerS = 0;
