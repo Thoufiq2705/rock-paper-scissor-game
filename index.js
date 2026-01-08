@@ -6,7 +6,7 @@ const resultFinal = document.querySelector("#result");
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
        const finalResult = playRound(button.id , computerPlay());
-       resultFinal.textContent = finalResult;
+       resultFinal.textContent = finalResult; 
     });    
 }); 
 //this is comment
