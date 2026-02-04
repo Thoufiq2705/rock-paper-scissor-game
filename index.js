@@ -7,7 +7,7 @@ buttons.forEach((button) => {
     button.addEventListener("click", () => {
        const finalResult = playRound(button.id , computerPlay()); 
        resultFinal.textContent = finalResult; 
-    });     
+    });      
 });  
 //this is comment
 let playerS = 0;
