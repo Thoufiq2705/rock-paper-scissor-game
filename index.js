@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll("button");
 const playerScore = document.querySelector("#player-score");
 const computerScore = document.querySelector("#computer-score");
-const resultFinal = document.querySelector("#result");
+const resultFinal = document.querySelector("#result"); 
 
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
